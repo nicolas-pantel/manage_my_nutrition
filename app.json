@@ -6,6 +6,7 @@
 
   ],
   "env": {
+    "SECRET_KEY": "TESTS"
   },
   "formation": {
   },
