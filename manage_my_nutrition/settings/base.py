@@ -92,3 +92,4 @@ STATIC_URL = "/static/"
 
 # Configure Django App for Heroku.
 django_heroku.settings(locals())
+TEST_RUNNER = "django_heroku.HerokuDiscoverRunner"
