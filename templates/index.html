@@ -1,0 +1,24 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>FrontEnd</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="{% static 'front-end/favicon.ico' %}">
+</head>
+<body>
+  <app-root></app-root>
+  <script src="{% static 'front-end/polyfills-es5.js' %}" nomodule defer></script>
+  <script src="{% static 'front-end/polyfills-es2015.js' %}" type="module"></script>
+  <script src="{% static 'front-end/styles-es2015.js' %}" type="module"></script>
+  <script src="{% static 'front-end/styles-es5.js' %}" nomodule defer></script>
+  <script src="{% static 'front-end/runtime-es2015.js' %}" type="module"></script>
+  <script src="{% static 'front-end/vendor-es2015.js' %}" type="module"></script>
+  <script src="{% static 'front-end/main-es2015.js' %}" type="module"></script>
+  <script src="{% static 'front-end/runtime-es5.js' %}" nomodule defer></script>
+  <script src="{% static 'front-end/vendor-es5.js' %}" nomodule defer></script>
+  <script src="{% static 'front-end/main-es5.js' %}" nomodule defer></script>
+</body>
+</html>
